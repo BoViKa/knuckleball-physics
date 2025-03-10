@@ -14,7 +14,7 @@ This project was made for the DD1354 course at KTH.
 
 
 ## File Structure
-
+bash```
 knuckleball-physics
 │
 └─── Assets
@@ -26,4 +26,4 @@ knuckleball-physics
     │ 
     │
     └─── Prefabs
-    
+```
