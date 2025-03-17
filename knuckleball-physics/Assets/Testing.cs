@@ -3,7 +3,7 @@ using UnityEngine;
 public class Testing : MonoBehaviour
 {
     public float radius = 0.5f;
-    public float airDensity = 0.1f;
+    public float airDensity = 1.2f;
 
     private Rigidbody rb;
 
@@ -16,7 +16,10 @@ public class Testing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Space))
+        {
+            rb.AddForce(new Vector3(0.5f, 1, 0) * 20);
+        }
     }
 
     void FixedUpdate()
