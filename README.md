@@ -1,4 +1,4 @@
-Knucleball Physics
+Knuckleball Physics
 ================
 
 ## Welcome to our Unity project!
